@@ -9,11 +9,69 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
         <!-- CSS file -->
         <link rel="stylesheet" href="style.css"/>
-        <!-- JS file -->
-        <script src="script.js"></script>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+        <!-- Animations -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     </head>
 
     <body>
-        Hi! This is currently under construction.
+        <!-- Navigation menu -->
+        <nav>
+            <div class="logo">
+                <li><a href="index.html">Kristy Lau</a></li>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Let's Chat!</a></li>
+            </ul>
+            <!-- Hamburger for smaller screen -->
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+
+        <!-- Landing Introduction -->
+        <section class="landing">
+            <div class="introduction">
+                <div class="intro-text">
+                    <h1 class="typewriter" id="hi">Hi, I'm Kristy!</h1>
+                    <p>An aspiring UX/UI Designer and Front-End Developer graduating from
+                        Hunter College in Spring 2022.
+                    </p>
+                </div>
+            </div>
+            <div class="intro-image" data-aos="fade-in" data-aos-duration="2000">
+                <img src="./images/medev.png" alt="dev"/>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects">
+            <div class="projects-text">
+                <h1>projects</h1>
+            </div>
+
+            <div class="showcase">
+                <div class="cunyfirst-revamp-project">
+                    CUNYfirst Revamp
+                </div>
+                <div class="bestfit-project">
+                    BestFit
+                </div>
+            </div>
+        </section>
+
+        <!-- Animations -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+        <!-- JS file -->
+        <script src="script.js"></script>
     </body>
 </html>
